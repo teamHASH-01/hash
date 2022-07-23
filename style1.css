@@ -1,0 +1,87 @@
+body {
+    background-color: #141414;
+    color: aliceblue;
+    height: 2000px;
+}
+.navtext h5 {
+    display: inline-block;
+    padding: 16px;
+    margin-top: 25px;
+    font-weight: 700;
+    transition: 400ms;
+}
+.nav2 {
+    padding: 10px;
+    height: 100px;
+}
+
+.nav1 img {
+    float: right;
+}
+
+.nav3 {
+    height: 100px;
+}
+
+.nav3 img {
+    float: left;
+    vertical-align: middle;
+    padding: 20px;
+    margin-top: 15px;
+}
+#cnt {
+    background-color: #121212;
+    color: #F9A826;
+    border: 2px solid #F9A826;
+    border-radius: 100px;
+    transition: 400ms;
+}
+
+#cnt:hover {
+    background-color: #F9A826;
+    color: aliceblue;
+}
+.fp-logo {
+    margin-top: 70px;
+    padding: 100px;
+    position: relative;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.fp-text {
+    margin-top: 185px;
+    position: relative;
+}
+
+.fp-text h1 {
+    font-size: 80px;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+.fp-text p {
+    color: #536DFE;
+    font-size: 32px;
+    font-weight: 700;
+}
+.logo-soft img{
+   width: 600px;
+   margin:auto;
+   opacity: 0.3;
+}
+@media only screen and (max-width: 600px) {
+    .fp-text h1{
+        font-size: 30px;
+    }
+    .fp-text p{
+        font-size: 10px;
+    }
+    .fp-logo{
+        margin-top: 0px;
+        padding: 40px;
+    }
+    .fp-text{
+        margin-top: 40px;
+    }
+  }

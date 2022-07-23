@@ -1,0 +1,270 @@
+body {
+    background-color: #141414;
+    color: aliceblue;
+    height: 4500px;
+}
+.light{
+    background-color: rgb(255, 255, 255);
+    color: #121212;
+}
+#tselector{
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+    display: inline-block;
+    border-radius: 100%;
+    margin-left: 20px;
+    float: right;
+    margin-top: 32px;
+}
+
+.nav1 {
+    height: 100px;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #121212;
+}
+
+.nav2 {
+    padding: 10px;
+    height: 100px;
+}
+
+.nav1 img {
+    float: right;
+}
+
+.nav3 {
+    height: 100px;
+}
+
+.nav3 img {
+    float: left;
+    vertical-align: middle;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.navtext h5 {
+    display: inline-block;
+    padding: 16px;
+    margin-top: 25px;
+    font-weight: 700;
+    transition: 400ms;
+}
+
+.navtext h5:hover {
+    color: #F50057;
+}
+
+#cnt {
+    color: #F9A826;
+    border: 2px solid #F9A826;
+    border-radius: 100px;
+    transition: 400ms;
+}
+
+#cnt:hover {
+    background-color: #F9A826;
+    color: aliceblue;
+}
+
+.fp-logo {
+    margin-top: 70px;
+    padding: 100px;
+    position: relative;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.fp-text {
+    margin-top: 185px;
+    position: relative;
+}
+
+.fp-text h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.fp-text p {
+    color: #536DFE;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.logo-soft img {
+    width: 600px;
+    margin: auto;
+    opacity: 0.3;
+}
+
+.about {
+    margin-top: 120px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.about h1 {
+    font-size: 160px;
+    font-weight: 800;
+    color: #00BFA6;
+}
+
+.about p {
+    font-size: 55px;
+    opacity: 0;
+    transition: 1.5s;
+}
+
+.about:hover p {
+    opacity: 1;
+}
+.services {
+    margin-top: 130px;
+    text-align: center;
+    overflow: hidden;
+}
+.services h1{
+    font-size: 160px;
+    font-weight: 800;
+}
+.ser{
+    width: 45%;
+    height: 225px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+.s1{
+    border: 6px solid #536DFE;
+    opacity: 0;
+    transition: 1.5s;
+}
+.ser-m:hover div{
+    opacity: 1;
+}
+.s2{
+    border: 6px solid #F9A826;
+    opacity: 0;
+    transition: 1.5s;
+}
+.s3{
+    border: 6px solid #F50057;
+    opacity: 0;
+    transition: 1.5s;
+}
+.s4{
+    border: 6px solid #00BFA6;
+    opacity: 0;
+    transition: 1.5s;
+}
+.s-text{
+    text-align: center;
+}
+.s-img{
+    align-items: center;
+    margin-top: 30px;
+}
+.s-img img{
+    padding:10px;
+    line-height: 225px;
+    float: right;
+    margin-right: 15px;
+}
+.s-text h1{
+    font-weight: 800;
+    font-size: 25px;
+    margin-top:55px;
+    margin-bottom: 25px;
+}
+.s-text a{
+    text-decoration: none;
+    border:3px solid #536DFE;
+    padding: 8px;
+    color: #536DFE;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 400ms;
+}
+.s-text a:hover{
+    background-color: #536DFE;
+    color: aliceblue;
+}
+.s2,.s4{
+    float: right;
+    margin-left: 100px;
+}
+#s-2 a{
+    border:3px solid #F9A826;
+    color: #F9A826;
+}
+#s-2 a:hover{
+    background-color: #F9A826;
+    color: aliceblue;
+}
+#s-2-img{
+    width: 70%;
+    padding:20px;
+    margin-top: -20px;
+    float: left;
+    margin-left: 30px;
+}
+#s-3 a{
+    border:3px solid #F50057;
+    color: #F50057;
+}
+#s-3 a:hover{
+    background-color: #F50057;
+    color: aliceblue;
+}
+#s-4 a{
+    border:3px solid #00BFA6;
+    color: #00BFA6;
+}
+#s-4 a:hover{
+    background-color: #00BFA6;
+    color: aliceblue;
+}
+#s-4-img{
+    width: 75%;
+    float: left;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.team-header{
+    margin-top: 130px;
+    text-align: center;
+    overflow: hidden;
+}
+.team-header h1{
+    font-size: 160px;
+    font-weight: 800;
+}
+.nav{
+    width: 110%;
+}
+@media only screen and (max-width: 600px) {
+    .nav1 {
+        height: 10px;
+    }
+
+    .fp-text h1 {
+        font-size: 30px;
+    }
+
+    .fp-text p {
+        font-size: 10px;
+    }
+
+    .fp-logo {
+        margin-top: 0px;
+        padding: 40px;
+    }
+
+    .fp-text {
+        margin-top: 40px;
+    }
+}
